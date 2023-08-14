@@ -1,0 +1,24 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-size: ;
+}
+.images{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding: 30px 20px;
+    grid-column-gap: 20px;
+    grid-row-gap:30px ;
+
+}
+
+.div img{
+    width: 400px;
+    height: 200px;
+    object-fit: cover;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.div img:hover{
+    transform: scale(1.04);
+}
